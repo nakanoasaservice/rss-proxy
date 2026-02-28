@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<rdf:RDF
+  xmlns="http://purl.org/rss/1.0/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xml:lang="ja">
+
+  <channel rdf:about="https://www.jpcert.or.jp/rss/jpcert.rdf">
+    <title>JPCERT/CC RSS Feed</title>
+    <link>https://www.jpcert.or.jp/</link>
+    <description>注意喚起と緊急報告、Weekly Report の新着情報</description>
+    <dc:publisher>JPCERT/CC</dc:publisher>
+    <dc:creator>webmaster@jpcert.or.jp</dc:creator>
+    <items>
+      <rdf:Seq>
+        
+        <rdf:li rdf:resource="https://www.jpcert.or.jp/at/2026/at260004.html" />
+        <rdf:li rdf:resource="https://www.jpcert.or.jp/at/2026/at260003.html" />
+        <rdf:li rdf:resource="https://www.jpcert.or.jp/at/2026/at260002.html" />
+        <rdf:li rdf:resource="https://www.jpcert.or.jp/at/2026/at260001.html" />
+        <rdf:li rdf:resource="https://www.jpcert.or.jp/at/2025/at250027.html" />
+        <rdf:li rdf:resource="https://www.jpcert.or.jp/at/2025/at250026.html" />
+        
+        <rdf:li rdf:resource="https://www.jpcert.or.jp/wr/2026/wr260226.html#1" />
+        <rdf:li rdf:resource="https://www.jpcert.or.jp/wr/2026/wr260226.html#2" />
+        <rdf:li rdf:resource="https://www.jpcert.or.jp/wr/2026/wr260226.html#3" />
+        <rdf:li rdf:resource="https://www.jpcert.or.jp/wr/2026/wr260226.html#4" />
+        <rdf:li rdf:resource="https://www.jpcert.or.jp/wr/2026/wr260226.html#5" />
+        <rdf:li rdf:resource="https://www.jpcert.or.jp/wr/2026/wr260226.html#6" />
+        
+      </rdf:Seq>
+
+    </items>
+  </channel>
+  
+  <item rdf:about="https://www.jpcert.or.jp/at/2026/at260004.html">
+    <title>注意喚起: FileZenにおけるOSコマンドインジェクションの脆弱性（CVE-2026-25108）に関する注意喚起  (公開)</title>
+    
+    <link>https://www.jpcert.or.jp/at/2026/at260004.html</link>
+    <dc:identifier>at260004</dc:identifier>
+    <dc:date>2026-02-13T13:27+09:00</dc:date>
+  </item>
+  
+  <item rdf:about="https://www.jpcert.or.jp/at/2026/at260003.html">
+    <title>注意喚起: 2026年2月マイクロソフトセキュリティ更新プログラムに関する注意喚起  (公開)</title>
+    
+    <link>https://www.jpcert.or.jp/at/2026/at260003.html</link>
+    <dc:identifier>at260003</dc:identifier>
+    <dc:date>2026-02-12T11:16+09:00</dc:date>
+  </item>
+  
+  <item rdf:about="https://www.jpcert.or.jp/at/2026/at260002.html">
+    <title>注意喚起: Ivanti Endpoint Manager Mobile（EPMM）の脆弱性（CVE-2026-1281、CVE-2026-1340）に関する注意喚起  (公開)</title>
+    
+    <link>https://www.jpcert.or.jp/at/2026/at260002.html</link>
+    <dc:identifier>at260002</dc:identifier>
+    <dc:date>2026-01-30T11:15+09:00</dc:date>
+  </item>
+  
+  <item rdf:about="https://www.jpcert.or.jp/at/2026/at260001.html">
+    <title>注意喚起: 2026年1月マイクロソフトセキュリティ更新プログラムに関する注意喚起  (公開)</title>
+    
+    <link>https://www.jpcert.or.jp/at/2026/at260001.html</link>
+    <dc:identifier>at260001</dc:identifier>
+    <dc:date>2026-01-14T11:33+09:00</dc:date>
+  </item>
+  
+  <item rdf:about="https://www.jpcert.or.jp/at/2025/at250027.html">
+    <title>注意喚起: WatchGuard製Fireboxのikedにおける境界外書き込みの脆弱性（CVE-2025-14733）に関する注意喚起  (公開)</title>
+    
+    <link>https://www.jpcert.or.jp/at/2025/at250027.html</link>
+    <dc:identifier>at250027</dc:identifier>
+    <dc:date>2025-12-22T15:37+09:00</dc:date>
+  </item>
+  
+  <item rdf:about="https://www.jpcert.or.jp/at/2025/at250026.html">
+    <title>注意喚起: Adobe AcrobatおよびReaderの脆弱性（APSB25-119）に関する注意喚起  (公開)</title>
+    
+    <link>https://www.jpcert.or.jp/at/2025/at250026.html</link>
+    <dc:identifier>at250026</dc:identifier>
+    <dc:date>2025-12-10T11:14+09:00</dc:date>
+  </item>
+  
+  
+  <item rdf:about="https://www.jpcert.or.jp/wr/2026/wr260226.html#1">
+    <title>Weekly Report: Splunk Enterpriseのサードパーティパッケージに複数の脆弱性</title>
+    <description>Splunk Enterpriseのサードパーティパッケージに複数の脆弱性</description>    
+	<content:encoded>
+	<![CDATA[Splunk Enterpriseのサードパーティパッケージに複数の脆弱性<a href="https://www.jpcert.or.jp/wr/2026/wr260226.html#1">続きを読む</a>]]>
+	</content:encoded>
+    <link>https://www.jpcert.or.jp/wr/2026/wr260226.html#1</link>
+    <dc:identifier>wr260226</dc:identifier>
+    <dc:date>2026-02-26T09:09+09:00</dc:date>
+  </item>
+  
+  <item rdf:about="https://www.jpcert.or.jp/wr/2026/wr260226.html#2">
+    <title>Weekly Report: Jenkinsに複数の脆弱性</title>
+    <description>Jenkinsに複数の脆弱性</description>    
+	<content:encoded>
+	<![CDATA[Jenkinsに複数の脆弱性<a href="https://www.jpcert.or.jp/wr/2026/wr260226.html#2">続きを読む</a>]]>
+	</content:encoded>
+    <link>https://www.jpcert.or.jp/wr/2026/wr260226.html#2</link>
+    <dc:identifier>wr260226</dc:identifier>
+    <dc:date>2026-02-26T09:09+09:00</dc:date>
+  </item>
+  
+  <item rdf:about="https://www.jpcert.or.jp/wr/2026/wr260226.html#3">
+    <title>Weekly Report: Google Chromeに複数の脆弱性</title>
+    <description>Google Chromeに複数の脆弱性</description>    
+	<content:encoded>
+	<![CDATA[Google Chromeに複数の脆弱性<a href="https://www.jpcert.or.jp/wr/2026/wr260226.html#3">続きを読む</a>]]>
+	</content:encoded>
+    <link>https://www.jpcert.or.jp/wr/2026/wr260226.html#3</link>
+    <dc:identifier>wr260226</dc:identifier>
+    <dc:date>2026-02-26T09:09+09:00</dc:date>
+  </item>
+  
+  <item rdf:about="https://www.jpcert.or.jp/wr/2026/wr260226.html#4">
+    <title>Weekly Report: Apache Tomcatに複数の脆弱性</title>
+    <description>Apache Tomcatに複数の脆弱性</description>    
+	<content:encoded>
+	<![CDATA[Apache Tomcatに複数の脆弱性<a href="https://www.jpcert.or.jp/wr/2026/wr260226.html#4">続きを読む</a>]]>
+	</content:encoded>
+    <link>https://www.jpcert.or.jp/wr/2026/wr260226.html#4</link>
+    <dc:identifier>wr260226</dc:identifier>
+    <dc:date>2026-02-26T09:09+09:00</dc:date>
+  </item>
+  
+  <item rdf:about="https://www.jpcert.or.jp/wr/2026/wr260226.html#5">
+    <title>Weekly Report: 複数のMozilla製品にヒープベースのバッファオーバーフローの脆弱性</title>
+    <description>複数のMozilla製品にヒープベースのバッファオーバーフローの脆弱性</description>    
+	<content:encoded>
+	<![CDATA[複数のMozilla製品にヒープベースのバッファオーバーフローの脆弱性<a href="https://www.jpcert.or.jp/wr/2026/wr260226.html#5">続きを読む</a>]]>
+	</content:encoded>
+    <link>https://www.jpcert.or.jp/wr/2026/wr260226.html#5</link>
+    <dc:identifier>wr260226</dc:identifier>
+    <dc:date>2026-02-26T09:09+09:00</dc:date>
+  </item>
+  
+  <item rdf:about="https://www.jpcert.or.jp/wr/2026/wr260226.html#6">
+    <title>Weekly Report: JPCERT/CCが「JSAC2026 開催レポート DAY 1」を公開</title>
+    <description>JPCERT/CCが「JSAC2026 開催レポート DAY 1」を公開</description>    
+	<content:encoded>
+	<![CDATA[JPCERT/CCが「JSAC2026 開催レポート DAY 1」を公開<a href="https://www.jpcert.or.jp/wr/2026/wr260226.html#6">続きを読む</a>]]>
+	</content:encoded>
+    <link>https://www.jpcert.or.jp/wr/2026/wr260226.html#6</link>
+    <dc:identifier>wr260226</dc:identifier>
+    <dc:date>2026-02-26T09:09+09:00</dc:date>
+  </item>
+  
+  
+</rdf:RDF>

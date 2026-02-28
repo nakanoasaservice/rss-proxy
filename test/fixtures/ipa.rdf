@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF
+  xmlns="http://purl.org/rss/1.0/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+  xml:lang="ja">
+ <channel rdf:about="https://www.ipa.go.jp/security/alert-rss.rdf">
+     <title>緊急対策情報・注意喚起（重要なセキュリティ情報）RSS</title>
+     <link>https://www.ipa.go.jp/security/index.html</link>
+     <description>緊急対策情報・注意喚起（重要なセキュリティ情報）RSS</description>
+     <dc:language>ja-jp</dc:language>
+     <items>
+         <rdf:Seq>
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/20260225-jvn.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/20260213-jvn.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/0212-ms.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/alert20260123.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/0121-jre.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/alert20260119.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/0114-ms.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/alert20251223.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/alert20251217.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/alert20251209.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/alert20251211.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/1210-ms.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/1210-adobereader.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/alert20251209.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/alert20251209.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/20251208.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/1112-ms.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/20251107-jvn.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/alert20251106.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/alert20251031_vpn.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/alert20251031_router.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/1015-ms.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/1022-jre.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/20251020-jvn.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2024/win10_eos.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/1015-ms.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/0910-adobereader.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/0910-ms.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/20250827-jvn.html" />
+             <rdf:li rdf:resource="https://www.ipa.go.jp/security/security-alert/2025/alert20250827.html" />
+         </rdf:Seq>
+     </items>
+ </channel>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/20260225-jvn.html">
+  <title>「LANSCOPE エンドポイントマネージャー オンプレミス版」におけるパストラバーサルの脆弱性について（JVN#79096585）</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/20260225-jvn.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2026-02-25T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/20260213-jvn.html">
+  <title>「FileZen」におけるOSコマンドインジェクションの脆弱性について（JVN#84622767）</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/20260213-jvn.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2026-02-13T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/0212-ms.html">
+  <title>Microsoft 製品の脆弱性対策について(2026年2月)</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/0212-ms.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2026-02-12T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/alert20260123.html">
+  <title>BIND 9の脆弱性対策について（CVE-2025-13878）</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/alert20260123.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2026-01-23T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/0121-jre.html">
+  <title>Oracle Java の脆弱性対策について(2026年1月)</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/0121-jre.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2026-01-21T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/alert20260119.html">
+  <title>Cisco Secure Email Gatewayの脆弱性対策について(CVE-2025-20393)</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/alert20260119.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2026-01-19T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/0114-ms.html">
+  <title>Microsoft 製品の脆弱性対策について(2026年1月)</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/0114-ms.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2026-01-14T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/alert20251223.html">
+  <title>WatchGuard Fireboxの脆弱性対策について(CVE-2025-14733)</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/alert20251223.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2025-12-23T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/alert20251217.html">
+  <title>Fortinet製品における認証回避の脆弱性について（CVE-2025-59718等）</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/alert20251217.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2025-12-17T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/alert20251209.html">
+  <title>更新：React Server Componentsにおける脆弱性について（CVE-2025-55182）</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/alert20251209.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2025-12-12T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/alert20251211.html">
+  <title>Adobe ColdFusionの脆弱性対策について(CVE-2025-61809)</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/alert20251211.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2025-12-11T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/1210-ms.html">
+  <title>Microsoft 製品の脆弱性対策について(2025年12月)</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/1210-ms.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2025-12-10T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/1210-adobereader.html">
+  <title>Adobe Acrobat および Reader の脆弱性対策について(2025年12月)</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/1210-adobereader.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2025-12-10T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/alert20251209.html">
+  <title>更新：React Server Componentsにおける脆弱性について（CVE-2025-55182）</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/alert20251209.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2025-12-10T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/alert20251209.html">
+  <title>React Server Componentsにおける脆弱性について（CVE-2025-55182）</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/alert20251209.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2025-12-09T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/20251208.html">
+  <title>Array Networks製Array AGシリーズにおけるコマンドインジェクションの脆弱性について</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/20251208.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2025-12-08T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/1112-ms.html">
+  <title>Microsoft 製品の脆弱性対策について(2025年11月)</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/1112-ms.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2025-11-12T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/20251107-jvn.html">
+  <title>「CLUSTERPRO X」および「EXPRESSCLUSTER X」におけるOSコマンドインジェクションの脆弱性（JVN#59387134）</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/20251107-jvn.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2025-11-07T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/alert20251106.html">
+  <title>Cisco Secure Firewall ASAおよびCisco Secure FTDの脆弱性について (CVE-2025-20333等)</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/alert20251106.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2025-11-06T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/alert20251031_vpn.html">
+  <title>VPN機器等に対するORB（Operational Relay Box）化を伴うネットワーク貫通型攻撃のおそれについて</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/alert20251031_vpn.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2025-10-31T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/alert20251031_router.html">
+  <title>家庭用ルータ・IoTルータ等、ネットワーク境界のORB（Operational Relay Box）化のおそれについて</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/alert20251031_router.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2025-10-31T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/1015-ms.html">
+  <title>更新：Microsoft 製品の脆弱性対策について(2025年10月)</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/1015-ms.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2025-10-27T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/1022-jre.html">
+  <title>Oracle Java の脆弱性対策について(2025年10月)</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/1022-jre.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2025-10-22T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/20251020-jvn.html">
+  <title>「LANSCOPE エンドポイントマネージャー オンプレミス版」における通信チャネルの送信元検証不備の脆弱性について（JVN#86318557）</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/20251020-jvn.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2025-10-20T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2024/win10_eos.html">
+  <title>更新：Windows 10のサポート終了に伴う注意喚起</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2024/win10_eos.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2025-10-16T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/1015-ms.html">
+  <title>更新：Microsoft 製品の脆弱性対策について(2025年10月)</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/1015-ms.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2025-10-15T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/0910-adobereader.html">
+  <title>Adobe Acrobat および Reader の脆弱性対策について(2025年9月)</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/0910-adobereader.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2025-09-10T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/0910-ms.html">
+  <title>Microsoft 製品の脆弱性対策について(2025年9月)</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/0910-ms.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2025-09-10T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/20250827-jvn.html">
+  <title>「SS1」における複数の脆弱性について（JVN#99577552）</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/20250827-jvn.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2025-08-27T00:00:00+09:00</dc:date>
+ </item>
+ <item rdf:about="https://www.ipa.go.jp/security/security-alert/2025/alert20250827.html">
+  <title>NetScaler ADCおよびNetScaler Gatewayの脆弱性について (CVE-2025-7775等)</title>
+  <link>https://www.ipa.go.jp/security/security-alert/2025/alert20250827.html</link>
+  <dc:creator>情報処理推進機構（IPA）</dc:creator>
+  <dc:date>2025-08-27T00:00:00+09:00</dc:date>
+ </item>
+
+</rdf:RDF>
