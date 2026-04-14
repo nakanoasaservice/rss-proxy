@@ -20,6 +20,8 @@
 		"wrangler": "^4.69.0"
 	},
 	"dependencies": {
-		"hono": "^4.12.3"
+		"feedsmith": "^3.0.0-beta.1",
+		"hono": "^4.12.3",
+		"remeda": "^2.33.6"
 	}
 }
