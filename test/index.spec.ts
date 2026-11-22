@@ -1,28 +1,45 @@
-import { fetchMock, SELF } from "cloudflare:test";
-import { afterEach, beforeEach, describe, expect, it } from "vitest";
+import { exports } from "cloudflare:workers";
+import { setupNetwork } from "@msw/cloudflare";
+import { http, HttpResponse } from "msw";
+import {
+	afterAll,
+	afterEach,
+	beforeAll,
+	beforeEach,
+	describe,
+	expect,
+	it,
+} from "vite-plus/test";
 
 import ipaRdf from "./fixtures/ipa.rdf?raw";
 import jpcertRdf from "./fixtures/jpcert.rdf?raw";
 
+const network = setupNetwork();
+
 describe("/proxy", () => {
-	beforeEach(() => {
-		fetchMock.activate();
-		fetchMock.disableNetConnect();
-	});
+	beforeAll(() => network.enable());
+	beforeEach(() =>
+		network.use(
+			http.all("*", ({ request }) => {
+				throw new Error(`Unexpected outbound request: ${request.url}`);
+			}),
+		),
+	);
+	afterEach(() => network.resetHandlers());
+	afterAll(() => network.disable());
 
-	afterEach(() => {
-		fetchMock.deactivate();
-	});
+	it("converts JPCERT RDF to Atom", async () => {
+		network.use(
+			http.get(
+				"https://www.jpcert.or.jp/rss/jpcert.rdf",
+				() =>
+					new HttpResponse(jpcertRdf, {
+						headers: { "content-type": "application/rss+xml" },
+					}),
+			),
+		);
 
-	it("JPCERT RDF を Atom に変換する", async () => {
-		fetchMock
-			.get("https://www.jpcert.or.jp")
-			.intercept({ path: "/rss/jpcert.rdf" })
-			.reply(200, jpcertRdf, {
-				headers: { "content-type": "application/rss+xml" },
-			});
-
-		const response = await SELF.fetch(
+		const response = await exports.default.fetch(
 			"https://example.com/proxy?url=https://www.jpcert.or.jp/rss/jpcert.rdf",
 		);
 
@@ -37,15 +54,18 @@ describe("/proxy", () => {
 		expect(text).toContain("https://www.jpcert.or.jp/");
 	});
 
-	it("IPA RDF を Atom に変換する", async () => {
-		fetchMock
-			.get("https://www.ipa.go.jp")
-			.intercept({ path: "/security/alert-rss.rdf" })
-			.reply(200, ipaRdf, {
-				headers: { "content-type": "application/rss+xml" },
-			});
+	it("converts IPA RDF to Atom", async () => {
+		network.use(
+			http.get(
+				"https://www.ipa.go.jp/security/alert-rss.rdf",
+				() =>
+					new HttpResponse(ipaRdf, {
+						headers: { "content-type": "application/rss+xml" },
+					}),
+			),
+		);
 
-		const response = await SELF.fetch(
+		const response = await exports.default.fetch(
 			"https://example.com/proxy?url=https://www.ipa.go.jp/security/alert-rss.rdf",
 		);
 
@@ -59,20 +79,20 @@ describe("/proxy", () => {
 		expect(text).toContain("https://www.ipa.go.jp/");
 	});
 
-	it("url パラメータがない場合 400 を返す", async () => {
-		const response = await SELF.fetch("https://example.com/proxy");
+	it("returns 400 when the URL is missing", async () => {
+		const response = await exports.default.fetch("https://example.com/proxy");
 		expect(response.status).toBe(400);
 	});
 
-	it("http URL の場合 400 を返す", async () => {
-		const response = await SELF.fetch(
+	it("rejects HTTP URLs", async () => {
+		const response = await exports.default.fetch(
 			"https://example.com/proxy?url=http://example.com/feed.rdf",
 		);
 		expect(response.status).toBe(400);
 	});
 
-	it("不正な URL の場合 400 を返す", async () => {
-		const response = await SELF.fetch(
+	it("rejects invalid URLs", async () => {
+		const response = await exports.default.fetch(
 			"https://example.com/proxy?url=not-a-url",
 		);
 		expect(response.status).toBe(400);

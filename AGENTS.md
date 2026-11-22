@@ -11,11 +11,11 @@ For all limits and quotas, retrieve from the product's `/platform/limits/` page.
 
 ## Commands
 
-| Command | Purpose |
-|---------|---------|
-| `bunx wrangler dev` | Local development |
-| `bunx wrangler deploy` | Deploy to Cloudflare |
-| `bunx wrangler types` | Generate TypeScript types |
+| Command                     | Purpose                   |
+| --------------------------- | ------------------------- |
+| `pnpm exec wrangler dev`    | Local development         |
+| `pnpm exec wrangler deploy` | Deploy to Cloudflare      |
+| `pnpm exec wrangler types`  | Generate TypeScript types |
 
 Run `wrangler types` after changing bindings in wrangler.jsonc.
 
